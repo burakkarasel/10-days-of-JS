@@ -42,15 +42,15 @@ button {
     outline: none;
     font-size: 1rem;
 }
-#reset-bt{
+.reset-bt{
     background-color: white;
     color: black;
 }
-#add-bt {
+.add-bt {
     background-color: rgb(15, 197, 15);
     color: white;
 }
-#subtract-bt {
+.subtract-bt {
     background-color: rgb(207, 25, 25);
     color: white;
 }
