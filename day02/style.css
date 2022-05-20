@@ -41,4 +41,5 @@ h3 {
     border: none;
     padding: 0.5rem;
     font-weight: bold;
+    cursor: pointer;
 }
