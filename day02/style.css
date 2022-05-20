@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+    color: white;
+}
+#main-container {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#inner-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #01538D;
+    width: 25rem;
+    border-radius: 5px;
+    height: 12rem;
+}
+#num-container {
+    border: 1px white solid;
+}
+span{
+    font-size: 50px;
+}
+h3 {
+    font-size: 22px;
+    position: relative;
+}
+#inner-container *{
+    margin: 8px;
+}
+#generator {
+    border: none;
+    padding: 0.5rem;
+    font-weight: bold;
+}
