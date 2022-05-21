@@ -39,6 +39,7 @@ span {
     padding: 5px;
     border: 1px solid white;
     margin: 20px 0px;
+    border-radius: 3px;
 }
 
 #generator {
