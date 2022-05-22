@@ -81,14 +81,37 @@ form button:hover {
     padding: 2rem;
     border: 1px solid #777;
     text-align: center;
+    position: relative;
     animation: slide ease .8s;
 }
 
 @keyframes slide {
-    from {
-        transform: translateY(-30);
+    0% {
+        transform: translateY(-30rem);
     }
-    to {
+    100% {
         transform: translateY(0);
+    }
+}
+
+.close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: rgb(179, 33, 62);
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.slide-up {
+    animation: slideup ease .8s;
+}
+
+@keyframes slideup {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-30rem);
     }
 }
