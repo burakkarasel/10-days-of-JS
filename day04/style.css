@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #01538D;
+    height: 100vh;
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding-bottom: 3rem;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1;
+}
+section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    padding-bottom: 1rem;
+}
+
+form button {
+    outline: none;
+    border: 1px solid white;
+    padding: 0.5rem;
+    border-radius: 3px;
+    background-color: transparent;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 700;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(219, 97, 52);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.modal-content {
+    width: 80%;
+    max-width: 60rem;
+    background-color: #eee;
+    margin: 15% auto;
+    padding: 2rem;
+    border: 1px solid #777;
+    text-align: center;
+    animation: slide ease .8s;
+}
+
+@keyframes slide {
+    from {
+        transform: translateY(-30);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
