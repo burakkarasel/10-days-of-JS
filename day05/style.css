@@ -13,29 +13,46 @@ body {
 }
 
 #container {
-    width: 25rem;
-    height: 10rem;
+    width: 40rem;
+    height: 16rem;
     background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     border-radius: 5px;
 }
 
 #input {
+    width: 70%;
     outline: none;
     border: none;
-    border-bottom: 1px solid black;
     box-shadow: 0 0 5px rgb(212, 194, 25);
-    height: 30px;
     padding: 5px;
     border-radius: 3px;
+    font-size: 1.6rem;
 }
 #btn {
-    height: 30px;
     padding: 5px 1rem;
     border: none;
+    width: 25%;
     background-color: #9E0087;
     color: white;
     border-radius: 3px;
+    cursor: pointer;
+    width: 25%;
+    font-size: 1.6rem;
+    box-shadow: 0 0 5px #d840c1;
+}
+
+#inputs {
+    padding: 10px;
+}
+
+#result {
+    margin-top: 3.5rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: cornflowerblue;
 }
