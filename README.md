@@ -1,7 +1,7 @@
 # 10 days of JS
 :card_index_dividers: 10 days discovering JS
 
-Personal challenge to post every day a note about go.
+Personal challenge to post every day a note about JS.
 
 | Day | Title      |
 | --- |:----------:|
