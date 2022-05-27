@@ -13,5 +13,5 @@ Personal challenge to post every day a note about JS.
 | 006 | [Vowel Counter App](day06/)|
 | 007 | [Click to Copy](day07/)|
 | 008 | [Input Field Char Count](day08/)|
-| 009 | [](day09/)|
+| 009 | [Check Prime](day09/)|
 | 010 | [](day10/)|
