@@ -14,4 +14,4 @@ Personal challenge to post every day a note about JS.
 | 007 | [Click to Copy](day07/)|
 | 008 | [Input Field Char Count](day08/)|
 | 009 | [Check Prime](day09/)|
-| 010 | [](day10/)|
+| 010 | [BMI Calculator](day10/)|
